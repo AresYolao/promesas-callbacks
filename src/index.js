@@ -1,4 +1,7 @@
 import './styles.css';
-import { obtenerHeroesArr } from './js/await'
+import { heroesCiclo, heroeIfAwait } from './js/await'
 
-obtenerHeroesArr().then(console.table);
+
+heroesCiclo();
+
+heroeIfAwait('iron')
